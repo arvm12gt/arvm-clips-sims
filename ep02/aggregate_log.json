@@ -1,0 +1,1766 @@
+{
+ "n_runs": 100,
+ "seeds": [
+  1000,
+  1099
+ ],
+ "model": "sim.py run(seed), identical parameters to featured run; featured seed 42 not included",
+ "grouping_method": "winner classified by strongest trait (max of the five; ties in order skill, grit, risk, honesty, luck)",
+ "wins_by_strongest_trait": {
+  "skill": 54,
+  "grit": 12,
+  "risk": 4,
+  "honesty": 15,
+  "luck": 15
+ },
+ "wins_by_strategy_raw": {
+  "leader": 52,
+  "cooperator": 18,
+  "survivor": 26,
+  "hoarder": 3,
+  "loner": 0,
+  "thief": 1
+ },
+ "survival_rate_by_strategy": {
+  "leader": 0.973,
+  "cooperator": 0.978,
+  "survivor": 0.977,
+  "hoarder": 0.212,
+  "loner": 0.013,
+  "thief": 0.229
+ },
+ "survival_counts": {
+  "leader": {
+   "agents": 1056,
+   "alive": 1027
+  },
+  "cooperator": {
+   "agents": 2667,
+   "alive": 2609
+  },
+  "survivor": {
+   "agents": 2220,
+   "alive": 2168
+  },
+  "hoarder": {
+   "agents": 1289,
+   "alive": 273
+  },
+  "loner": {
+   "agents": 1617,
+   "alive": 21
+  },
+  "thief": {
+   "agents": 1151,
+   "alive": 264
+  }
+ },
+ "winner_in_group_runs": 95,
+ "winner_was_most_skilled_runs": 5,
+ "median_winning_score": 160,
+ "mean_deaths": 36.4,
+ "min_deaths": 21,
+ "max_deaths": 73,
+ "runs": [
+  {
+   "seed": 1000,
+   "winner": "Catherine",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.91,
+    "work_ethic": 0.16,
+    "risk": 0.38,
+    "honesty": 0.22,
+    "luck": 0.52
+   },
+   "most_skilled": "Betty",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1001,
+   "winner": "Jessica",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "grit",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.56,
+    "work_ethic": 0.9,
+    "risk": 0.11,
+    "honesty": 0.61,
+    "luck": 0.53
+   },
+   "most_skilled": "Kevin",
+   "total_deaths": 37
+  },
+  {
+   "seed": 1002,
+   "winner": "Sandra",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.48,
+    "risk": 0.34,
+    "honesty": 0.13,
+    "luck": 0.58
+   },
+   "most_skilled": "Jack",
+   "total_deaths": 30
+  },
+  {
+   "seed": 1003,
+   "winner": "Elizabeth",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 154,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.64,
+    "work_ethic": 0.15,
+    "risk": 0.51,
+    "honesty": 0.44,
+    "luck": 0.1
+   },
+   "most_skilled": "Gloria",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1004,
+   "winner": "Jessica",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.84,
+    "work_ethic": 0.5,
+    "risk": 0.34,
+    "honesty": 0.88,
+    "luck": 0.77
+   },
+   "most_skilled": "Dorothy",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1005,
+   "winner": "Betty",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 158,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.62,
+    "work_ethic": 0.43,
+    "risk": 0.4,
+    "honesty": 0.53,
+    "luck": 0.84
+   },
+   "most_skilled": "David",
+   "total_deaths": 31
+  },
+  {
+   "seed": 1006,
+   "winner": "Patricia",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 162,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.74,
+    "risk": 0.77,
+    "honesty": 0.73,
+    "luck": 0.04
+   },
+   "most_skilled": "Deborah",
+   "total_deaths": 29
+  },
+  {
+   "seed": 1007,
+   "winner": "Ashley",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.82,
+    "risk": 0.74,
+    "honesty": 0.65,
+    "luck": 0.92
+   },
+   "most_skilled": "Ryan",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1008,
+   "winner": "Lisa",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.78,
+    "work_ethic": 0.6,
+    "risk": 0.35,
+    "honesty": 0.9,
+    "luck": 0.68
+   },
+   "most_skilled": "Sarah",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1009,
+   "winner": "Mary",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.88,
+    "work_ethic": 0.5,
+    "risk": 0.82,
+    "honesty": 0.81,
+    "luck": 0.21
+   },
+   "most_skilled": "Samuel",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1010,
+   "winner": "Linda",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.03,
+    "risk": 0.54,
+    "honesty": 0.6,
+    "luck": 0.57
+   },
+   "most_skilled": "Andrew",
+   "total_deaths": 39
+  },
+  {
+   "seed": 1011,
+   "winner": "Robert",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "skill",
+   "winner_score": 159,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.54,
+    "risk": 0.68,
+    "honesty": 0.53,
+    "luck": 0.17
+   },
+   "most_skilled": "Jerry",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1012,
+   "winner": "Nancy",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 151,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.66,
+    "risk": 0.01,
+    "honesty": 0.73,
+    "luck": 0.1
+   },
+   "most_skilled": "Andrew",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1013,
+   "winner": "Linda",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "grit",
+   "winner_score": 155,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.61,
+    "work_ethic": 0.88,
+    "risk": 0.28,
+    "honesty": 0.67,
+    "luck": 0.5
+   },
+   "most_skilled": "Justin",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1014,
+   "winner": "Melissa",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.31,
+    "risk": 0.73,
+    "honesty": 0.8,
+    "luck": 0.46
+   },
+   "most_skilled": "Jonathan",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1015,
+   "winner": "Sandra",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.91,
+    "work_ethic": 0.54,
+    "risk": 0.63,
+    "honesty": 0.64,
+    "luck": 0.04
+   },
+   "most_skilled": "Janice",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1016,
+   "winner": "Nicholas",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 167,
+   "winner_in_group": false,
+   "winner_traits": {
+    "skill": 0.62,
+    "work_ethic": 0.58,
+    "risk": 0.69,
+    "honesty": 0.86,
+    "luck": 0.18
+   },
+   "most_skilled": "Olivia",
+   "total_deaths": 73
+  },
+  {
+   "seed": 1017,
+   "winner": "Paul",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.85,
+    "risk": 0.5,
+    "honesty": 0.96,
+    "luck": 0.44
+   },
+   "most_skilled": "Jacob",
+   "total_deaths": 44
+  },
+  {
+   "seed": 1018,
+   "winner": "Eric",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.25,
+    "risk": 0.44,
+    "honesty": 0.65,
+    "luck": 0.28
+   },
+   "most_skilled": "Kelly",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1019,
+   "winner": "Karen",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 162,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.85,
+    "risk": 0.33,
+    "honesty": 0.9,
+    "luck": 0.45
+   },
+   "most_skilled": "Paul",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1020,
+   "winner": "Mary",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 152,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.6,
+    "work_ethic": 0.36,
+    "risk": 0.52,
+    "honesty": 0.28,
+    "luck": 0.31
+   },
+   "most_skilled": "Jerry",
+   "total_deaths": 44
+  },
+  {
+   "seed": 1021,
+   "winner": "Nancy",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 166,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.9,
+    "risk": 0.4,
+    "honesty": 0.97,
+    "luck": 0.33
+   },
+   "most_skilled": "Melissa",
+   "total_deaths": 31
+  },
+  {
+   "seed": 1022,
+   "winner": "William",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "luck",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.59,
+    "work_ethic": 0.1,
+    "risk": 0.59,
+    "honesty": 0.49,
+    "luck": 0.68
+   },
+   "most_skilled": "Benjamin",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1023,
+   "winner": "Susan",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 154,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.04,
+    "risk": 0.41,
+    "honesty": 0.05,
+    "luck": 0.07
+   },
+   "most_skilled": "Teresa",
+   "total_deaths": 44
+  },
+  {
+   "seed": 1024,
+   "winner": "James",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "luck",
+   "winner_score": 159,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.48,
+    "risk": 0.39,
+    "honesty": 0.83,
+    "luck": 0.87
+   },
+   "most_skilled": "Timothy",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1025,
+   "winner": "Heather",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 182,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.66,
+    "risk": 0.73,
+    "honesty": 0.94,
+    "luck": 0.86
+   },
+   "most_skilled": "Thomas",
+   "total_deaths": 42
+  },
+  {
+   "seed": 1026,
+   "winner": "Susan",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 166,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.71,
+    "work_ethic": 0.19,
+    "risk": 0.33,
+    "honesty": 0.23,
+    "luck": 0.1
+   },
+   "most_skilled": "Kimberly",
+   "total_deaths": 40
+  },
+  {
+   "seed": 1027,
+   "winner": "Kenneth",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 154,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.52,
+    "risk": 0.46,
+    "honesty": 0.74,
+    "luck": 0.42
+   },
+   "most_skilled": "Maria",
+   "total_deaths": 28
+  },
+  {
+   "seed": 1028,
+   "winner": "Susan",
+   "winner_strategy": "thief",
+   "winner_strongest_trait": "skill",
+   "winner_score": 176,
+   "winner_in_group": false,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.88,
+    "risk": 0.82,
+    "honesty": 0.15,
+    "luck": 0.56
+   },
+   "most_skilled": "Stephen",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1029,
+   "winner": "Mary",
+   "winner_strategy": "hoarder",
+   "winner_strongest_trait": "risk",
+   "winner_score": 171,
+   "winner_in_group": false,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.8,
+    "risk": 0.88,
+    "honesty": 0.26,
+    "luck": 0.38
+   },
+   "most_skilled": "Karen",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1030,
+   "winner": "James",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.43,
+    "risk": 0.6,
+    "honesty": 0.66,
+    "luck": 0.19
+   },
+   "most_skilled": "Matthew",
+   "total_deaths": 45
+  },
+  {
+   "seed": 1031,
+   "winner": "Andrew",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 160,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.82,
+    "risk": 0.87,
+    "honesty": 1.0,
+    "luck": 0.45
+   },
+   "most_skilled": "David",
+   "total_deaths": 40
+  },
+  {
+   "seed": 1032,
+   "winner": "Richard",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.22,
+    "risk": 0.15,
+    "honesty": 0.43,
+    "luck": 0.53
+   },
+   "most_skilled": "Joshua",
+   "total_deaths": 40
+  },
+  {
+   "seed": 1033,
+   "winner": "Karen",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 150,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.49,
+    "risk": 0.45,
+    "honesty": 0.51,
+    "luck": 0.97
+   },
+   "most_skilled": "Karen",
+   "total_deaths": 28
+  },
+  {
+   "seed": 1034,
+   "winner": "Betty",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "luck",
+   "winner_score": 155,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.19,
+    "risk": 0.39,
+    "honesty": 0.76,
+    "luck": 0.99
+   },
+   "most_skilled": "Victoria",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1035,
+   "winner": "George",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.83,
+    "risk": 0.01,
+    "honesty": 0.97,
+    "luck": 0.94
+   },
+   "most_skilled": "Steven",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1036,
+   "winner": "Michael",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.95,
+    "work_ethic": 0.91,
+    "risk": 0.78,
+    "honesty": 0.96,
+    "luck": 0.46
+   },
+   "most_skilled": "Donald",
+   "total_deaths": 31
+  },
+  {
+   "seed": 1037,
+   "winner": "Robert",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "grit",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.74,
+    "work_ethic": 0.89,
+    "risk": 0.24,
+    "honesty": 0.84,
+    "luck": 0.37
+   },
+   "most_skilled": "Timothy",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1038,
+   "winner": "Elizabeth",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 160,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.17,
+    "risk": 0.42,
+    "honesty": 0.27,
+    "luck": 0.73
+   },
+   "most_skilled": "Olivia",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1039,
+   "winner": "David",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 155,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.84,
+    "work_ethic": 0.0,
+    "risk": 0.0,
+    "honesty": 0.08,
+    "luck": 0.21
+   },
+   "most_skilled": "Charles",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1040,
+   "winner": "Rebecca",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "grit",
+   "winner_score": 149,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.89,
+    "risk": 0.74,
+    "honesty": 0.76,
+    "luck": 0.47
+   },
+   "most_skilled": "Aaron",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1041,
+   "winner": "Deborah",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 166,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.77,
+    "work_ethic": 0.16,
+    "risk": 0.46,
+    "honesty": 0.65,
+    "luck": 0.76
+   },
+   "most_skilled": "Gregory",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1042,
+   "winner": "John",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "grit",
+   "winner_score": 150,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.74,
+    "work_ethic": 0.88,
+    "risk": 0.28,
+    "honesty": 0.87,
+    "luck": 0.36
+   },
+   "most_skilled": "Tyler",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1043,
+   "winner": "Linda",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.59,
+    "work_ethic": 0.22,
+    "risk": 0.61,
+    "honesty": 0.91,
+    "luck": 0.95
+   },
+   "most_skilled": "Patrick",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1044,
+   "winner": "Joseph",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 159,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.6,
+    "risk": 0.18,
+    "honesty": 0.64,
+    "luck": 0.29
+   },
+   "most_skilled": "Sarah",
+   "total_deaths": 39
+  },
+  {
+   "seed": 1045,
+   "winner": "Victoria",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.43,
+    "risk": 0.51,
+    "honesty": 0.66,
+    "luck": 0.67
+   },
+   "most_skilled": "Scott",
+   "total_deaths": 48
+  },
+  {
+   "seed": 1046,
+   "winner": "Mary",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 176,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.83,
+    "risk": 0.86,
+    "honesty": 0.65,
+    "luck": 0.18
+   },
+   "most_skilled": "Margaret",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1047,
+   "winner": "Nicholas",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 184,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.88,
+    "work_ethic": 0.6,
+    "risk": 0.66,
+    "honesty": 0.77,
+    "luck": 0.75
+   },
+   "most_skilled": "Michael",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1048,
+   "winner": "Barbara",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.2,
+    "risk": 0.93,
+    "honesty": 0.61,
+    "luck": 0.73
+   },
+   "most_skilled": "Barbara",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1049,
+   "winner": "James",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.67,
+    "risk": 0.92,
+    "honesty": 0.79,
+    "luck": 0.06
+   },
+   "most_skilled": "James",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1050,
+   "winner": "Thomas",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 155,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.67,
+    "work_ethic": 0.32,
+    "risk": 0.33,
+    "honesty": 0.05,
+    "luck": 0.18
+   },
+   "most_skilled": "Matthew",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1051,
+   "winner": "William",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.89,
+    "risk": 0.41,
+    "honesty": 0.73,
+    "luck": 0.7
+   },
+   "most_skilled": "Jennifer",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1052,
+   "winner": "Frank",
+   "winner_strategy": "hoarder",
+   "winner_strongest_trait": "grit",
+   "winner_score": 151,
+   "winner_in_group": false,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.96,
+    "risk": 0.25,
+    "honesty": 0.29,
+    "luck": 0.95
+   },
+   "most_skilled": "George",
+   "total_deaths": 21
+  },
+  {
+   "seed": 1053,
+   "winner": "Timothy",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 160,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.23,
+    "risk": 0.74,
+    "honesty": 0.74,
+    "luck": 0.78
+   },
+   "most_skilled": "Charles",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1054,
+   "winner": "Julie",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 170,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.51,
+    "risk": 0.12,
+    "honesty": 0.37,
+    "luck": 0.36
+   },
+   "most_skilled": "Nancy",
+   "total_deaths": 45
+  },
+  {
+   "seed": 1055,
+   "winner": "Linda",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "luck",
+   "winner_score": 158,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.73,
+    "risk": 0.36,
+    "honesty": 0.69,
+    "luck": 0.99
+   },
+   "most_skilled": "Christine",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1056,
+   "winner": "Mary",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "luck",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.91,
+    "work_ethic": 0.91,
+    "risk": 0.6,
+    "honesty": 0.51,
+    "luck": 0.92
+   },
+   "most_skilled": "Sarah",
+   "total_deaths": 48
+  },
+  {
+   "seed": 1057,
+   "winner": "Edward",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.47,
+    "risk": 0.48,
+    "honesty": 0.73,
+    "luck": 0.09
+   },
+   "most_skilled": "Edward",
+   "total_deaths": 42
+  },
+  {
+   "seed": 1058,
+   "winner": "Kevin",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "skill",
+   "winner_score": 163,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.85,
+    "risk": 0.11,
+    "honesty": 0.58,
+    "luck": 0.69
+   },
+   "most_skilled": "Emily",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1059,
+   "winner": "Andrew",
+   "winner_strategy": "hoarder",
+   "winner_strongest_trait": "luck",
+   "winner_score": 164,
+   "winner_in_group": false,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.82,
+    "risk": 0.03,
+    "honesty": 0.11,
+    "luck": 0.96
+   },
+   "most_skilled": "Olivia",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1060,
+   "winner": "William",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "grit",
+   "winner_score": 168,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.84,
+    "work_ethic": 0.93,
+    "risk": 0.13,
+    "honesty": 0.41,
+    "luck": 0.49
+   },
+   "most_skilled": "Gloria",
+   "total_deaths": 38
+  },
+  {
+   "seed": 1061,
+   "winner": "Richard",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 169,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.65,
+    "work_ethic": 0.41,
+    "risk": 0.56,
+    "honesty": 0.86,
+    "luck": 0.99
+   },
+   "most_skilled": "Joseph",
+   "total_deaths": 37
+  },
+  {
+   "seed": 1062,
+   "winner": "Anthony",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "luck",
+   "winner_score": 154,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.77,
+    "risk": 0.75,
+    "honesty": 0.62,
+    "luck": 0.94
+   },
+   "most_skilled": "Ryan",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1063,
+   "winner": "Susan",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.22,
+    "risk": 0.45,
+    "honesty": 0.17,
+    "luck": 0.8
+   },
+   "most_skilled": "Michael",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1064,
+   "winner": "Sarah",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.42,
+    "risk": 0.03,
+    "honesty": 0.61,
+    "luck": 0.56
+   },
+   "most_skilled": "Ann",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1065,
+   "winner": "Michael",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "risk",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.82,
+    "work_ethic": 0.28,
+    "risk": 0.94,
+    "honesty": 0.92,
+    "luck": 0.03
+   },
+   "most_skilled": "Heather",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1066,
+   "winner": "Michael",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.32,
+    "risk": 0.39,
+    "honesty": 0.97,
+    "luck": 0.67
+   },
+   "most_skilled": "Scott",
+   "total_deaths": 30
+  },
+  {
+   "seed": 1067,
+   "winner": "Linda",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "luck",
+   "winner_score": 151,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.55,
+    "work_ethic": 0.41,
+    "risk": 0.08,
+    "honesty": 0.4,
+    "luck": 0.89
+   },
+   "most_skilled": "Donald",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1068,
+   "winner": "Jennifer",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 161,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.47,
+    "risk": 0.24,
+    "honesty": 0.08,
+    "luck": 0.27
+   },
+   "most_skilled": "Joseph",
+   "total_deaths": 29
+  },
+  {
+   "seed": 1069,
+   "winner": "Daniel",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "grit",
+   "winner_score": 165,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.56,
+    "work_ethic": 0.84,
+    "risk": 0.06,
+    "honesty": 0.62,
+    "luck": 0.44
+   },
+   "most_skilled": "Sarah",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1070,
+   "winner": "Daniel",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 162,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.64,
+    "risk": 0.72,
+    "honesty": 0.77,
+    "luck": 0.23
+   },
+   "most_skilled": "George",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1071,
+   "winner": "Jessica",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.88,
+    "work_ethic": 0.54,
+    "risk": 0.55,
+    "honesty": 0.07,
+    "luck": 0.83
+   },
+   "most_skilled": "Mark",
+   "total_deaths": 41
+  },
+  {
+   "seed": 1072,
+   "winner": "Robert",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 152,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.66,
+    "work_ethic": 0.91,
+    "risk": 0.44,
+    "honesty": 0.96,
+    "luck": 0.49
+   },
+   "most_skilled": "Linda",
+   "total_deaths": 24
+  },
+  {
+   "seed": 1073,
+   "winner": "Gregory",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 205,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.62,
+    "risk": 0.4,
+    "honesty": 0.79,
+    "luck": 0.88
+   },
+   "most_skilled": "Mary",
+   "total_deaths": 55
+  },
+  {
+   "seed": 1074,
+   "winner": "Anthony",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 163,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.24,
+    "risk": 0.38,
+    "honesty": 0.68,
+    "luck": 0.14
+   },
+   "most_skilled": "Dennis",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1075,
+   "winner": "Ashley",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "grit",
+   "winner_score": 160,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.62,
+    "work_ethic": 0.97,
+    "risk": 0.67,
+    "honesty": 0.69,
+    "luck": 0.21
+   },
+   "most_skilled": "Steven",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1076,
+   "winner": "Anthony",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "risk",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.78,
+    "work_ethic": 0.13,
+    "risk": 0.95,
+    "honesty": 0.88,
+    "luck": 0.57
+   },
+   "most_skilled": "Victoria",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1077,
+   "winner": "James",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.67,
+    "work_ethic": 0.22,
+    "risk": 0.35,
+    "honesty": 0.87,
+    "luck": 0.22
+   },
+   "most_skilled": "Stephanie",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1078,
+   "winner": "Michael",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 150,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.24,
+    "risk": 0.28,
+    "honesty": 0.6,
+    "luck": 0.26
+   },
+   "most_skilled": "Daniel",
+   "total_deaths": 33
+  },
+  {
+   "seed": 1079,
+   "winner": "Michael",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "luck",
+   "winner_score": 153,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.78,
+    "work_ethic": 0.66,
+    "risk": 0.68,
+    "honesty": 0.41,
+    "luck": 0.92
+   },
+   "most_skilled": "Rachel",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1080,
+   "winner": "Sandra",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.84,
+    "work_ethic": 0.01,
+    "risk": 0.08,
+    "honesty": 0.49,
+    "luck": 0.37
+   },
+   "most_skilled": "Jessica",
+   "total_deaths": 39
+  },
+  {
+   "seed": 1081,
+   "winner": "Richard",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 152,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.63,
+    "work_ethic": 0.19,
+    "risk": 0.68,
+    "honesty": 0.63,
+    "luck": 0.98
+   },
+   "most_skilled": "Steven",
+   "total_deaths": 31
+  },
+  {
+   "seed": 1082,
+   "winner": "Joseph",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 162,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.57,
+    "work_ethic": 0.68,
+    "risk": 0.51,
+    "honesty": 0.66,
+    "luck": 0.8
+   },
+   "most_skilled": "David",
+   "total_deaths": 28
+  },
+  {
+   "seed": 1083,
+   "winner": "Sarah",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 167,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.28,
+    "risk": 0.35,
+    "honesty": 0.37,
+    "luck": 0.85
+   },
+   "most_skilled": "Samuel",
+   "total_deaths": 48
+  },
+  {
+   "seed": 1084,
+   "winner": "Mary",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 164,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.55,
+    "work_ethic": 0.21,
+    "risk": 0.65,
+    "honesty": 0.67,
+    "luck": 0.6
+   },
+   "most_skilled": "Dorothy",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1085,
+   "winner": "William",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "luck",
+   "winner_score": 164,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.68,
+    "work_ethic": 0.9,
+    "risk": 0.66,
+    "honesty": 0.91,
+    "luck": 0.91
+   },
+   "most_skilled": "Mary",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1086,
+   "winner": "Stephanie",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.91,
+    "risk": 0.18,
+    "honesty": 0.98,
+    "luck": 0.13
+   },
+   "most_skilled": "Rachel",
+   "total_deaths": 27
+  },
+  {
+   "seed": 1087,
+   "winner": "Elizabeth",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "grit",
+   "winner_score": 167,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.96,
+    "risk": 0.13,
+    "honesty": 0.93,
+    "luck": 0.46
+   },
+   "most_skilled": "Ann",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1088,
+   "winner": "Donald",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 158,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.08,
+    "risk": 0.12,
+    "honesty": 0.96,
+    "luck": 0.84
+   },
+   "most_skilled": "Jonathan",
+   "total_deaths": 30
+  },
+  {
+   "seed": 1089,
+   "winner": "Nancy",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "grit",
+   "winner_score": 164,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.92,
+    "risk": 0.65,
+    "honesty": 0.47,
+    "luck": 0.75
+   },
+   "most_skilled": "Jennifer",
+   "total_deaths": 44
+  },
+  {
+   "seed": 1090,
+   "winner": "Nancy",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "grit",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 1.0,
+    "risk": 0.91,
+    "honesty": 0.95,
+    "luck": 0.86
+   },
+   "most_skilled": "Mark",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1091,
+   "winner": "Robert",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 163,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.71,
+    "work_ethic": 0.53,
+    "risk": 0.32,
+    "honesty": 0.31,
+    "luck": 0.19
+   },
+   "most_skilled": "Justin",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1092,
+   "winner": "William",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 170,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.42,
+    "risk": 0.94,
+    "honesty": 0.89,
+    "luck": 0.38
+   },
+   "most_skilled": "William",
+   "total_deaths": 35
+  },
+  {
+   "seed": 1093,
+   "winner": "Mary",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "skill",
+   "winner_score": 164,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.68,
+    "work_ethic": 0.49,
+    "risk": 0.59,
+    "honesty": 0.53,
+    "luck": 0.18
+   },
+   "most_skilled": "Susan",
+   "total_deaths": 39
+  },
+  {
+   "seed": 1094,
+   "winner": "Andrew",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 152,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.72,
+    "work_ethic": 0.06,
+    "risk": 0.4,
+    "honesty": 0.61,
+    "luck": 0.38
+   },
+   "most_skilled": "Olivia",
+   "total_deaths": 34
+  },
+  {
+   "seed": 1095,
+   "winner": "Jessica",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 156,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.07,
+    "risk": 0.44,
+    "honesty": 0.47,
+    "luck": 0.5
+   },
+   "most_skilled": "Susan",
+   "total_deaths": 36
+  },
+  {
+   "seed": 1096,
+   "winner": "Michelle",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "risk",
+   "winner_score": 163,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.85,
+    "risk": 0.94,
+    "honesty": 0.76,
+    "luck": 0.93
+   },
+   "most_skilled": "Larry",
+   "total_deaths": 32
+  },
+  {
+   "seed": 1097,
+   "winner": "Eric",
+   "winner_strategy": "leader",
+   "winner_strongest_trait": "skill",
+   "winner_score": 157,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.58,
+    "risk": 0.83,
+    "honesty": 0.73,
+    "luck": 0.27
+   },
+   "most_skilled": "Heather",
+   "total_deaths": 37
+  },
+  {
+   "seed": 1098,
+   "winner": "Andrew",
+   "winner_strategy": "cooperator",
+   "winner_strongest_trait": "honesty",
+   "winner_score": 158,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.72,
+    "work_ethic": 0.17,
+    "risk": 0.55,
+    "honesty": 0.75,
+    "luck": 0.38
+   },
+   "most_skilled": "Kevin",
+   "total_deaths": 37
+  },
+  {
+   "seed": 1099,
+   "winner": "Eric",
+   "winner_strategy": "survivor",
+   "winner_strongest_trait": "skill",
+   "winner_score": 164,
+   "winner_in_group": true,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.51,
+    "risk": 0.37,
+    "honesty": 0.29,
+    "luck": 0.26
+   },
+   "most_skilled": "Elizabeth",
+   "total_deaths": 40
+  }
+ ]
+}
