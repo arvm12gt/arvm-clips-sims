@@ -1,0 +1,1832 @@
+{
+ "n_runs": 100,
+ "seeds": [
+  1,
+  100
+ ],
+ "model": "sim.py run(seed), identical parameters to featured run; featured seed 20261120 not included",
+ "archetype_method": "priority order: genius (skill>=0.90) > workhorse (work_ethic>=0.90) > gambler (strategy==gambler) > quiet_builder (strategy==builder) > other",
+ "wins_per_archetype": {
+  "genius": 41,
+  "workhorse": 11,
+  "gambler": 4,
+  "quiet_builder": 43,
+  "other": 1
+ },
+ "wins_per_strategy_raw": {
+  "worker": 0,
+  "builder": 93,
+  "gambler": 5,
+  "lender": 0,
+  "thief": 2
+ },
+ "most_skilled_bankrupt_runs": 8,
+ "winner_was_most_skilled_runs": 4,
+ "very_lucky_winner_runs": 24,
+ "median_winning_wealth": 51416,
+ "mean_winning_wealth": 61352,
+ "min_winning_wealth": 24810,
+ "max_winning_wealth": 297688,
+ "runs": [
+  {
+   "seed": 1,
+   "winner": "Tyler",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 43142,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.55,
+    "risk": 0.49,
+    "honesty": 0.86,
+    "luck": 0.77
+   },
+   "most_skilled": "David",
+   "most_skilled_final_money": 23269,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 2,
+   "winner": "Barbara",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 67545,
+   "winner_traits": {
+    "skill": 0.88,
+    "work_ethic": 0.9,
+    "risk": 0.46,
+    "honesty": 0.57,
+    "luck": 0.92
+   },
+   "most_skilled": "Patricia",
+   "most_skilled_final_money": 26885,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 3,
+   "winner": "Anthony",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 58047,
+   "winner_traits": {
+    "skill": 0.63,
+    "work_ethic": 0.47,
+    "risk": 0.68,
+    "honesty": 0.35,
+    "luck": 0.71
+   },
+   "most_skilled": "John",
+   "most_skilled_final_money": 661,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 4,
+   "winner": "Gary",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 72723,
+   "winner_traits": {
+    "skill": 0.95,
+    "work_ethic": 0.16,
+    "risk": 0.58,
+    "honesty": 0.5,
+    "luck": 0.57
+   },
+   "most_skilled": "Gregory",
+   "most_skilled_final_money": 14016,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 24
+  },
+  {
+   "seed": 5,
+   "winner": "Frank",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 54994,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.52,
+    "risk": 0.59,
+    "honesty": 0.57,
+    "luck": 0.74
+   },
+   "most_skilled": "Diane",
+   "most_skilled_final_money": 9167,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 6,
+   "winner": "Stephen",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 46329,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.53,
+    "risk": 0.69,
+    "honesty": 0.81,
+    "luck": 0.47
+   },
+   "most_skilled": "Gloria",
+   "most_skilled_final_money": 10870,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 7,
+   "winner": "Brian",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 58267,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.4,
+    "risk": 0.4,
+    "honesty": 0.95,
+    "luck": 0.72
+   },
+   "most_skilled": "Eric",
+   "most_skilled_final_money": 22711,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 8,
+   "winner": "Scott",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 125127,
+   "winner_traits": {
+    "skill": 0.78,
+    "work_ethic": 0.74,
+    "risk": 0.58,
+    "honesty": 0.26,
+    "luck": 0.84
+   },
+   "most_skilled": "Stephen",
+   "most_skilled_final_money": 94217,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 9,
+   "winner": "Ann",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 41799,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.06,
+    "risk": 0.57,
+    "honesty": 0.51,
+    "luck": 0.85
+   },
+   "most_skilled": "Joseph",
+   "most_skilled_final_money": 34454,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 10,
+   "winner": "Teresa",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 48670,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.54,
+    "risk": 0.75,
+    "honesty": 0.85,
+    "luck": 0.59
+   },
+   "most_skilled": "Steven",
+   "most_skilled_final_money": 30703,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 11,
+   "winner": "Joyce",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 78067,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.27,
+    "risk": 0.47,
+    "honesty": 0.13,
+    "luck": 0.43
+   },
+   "most_skilled": "Ronald",
+   "most_skilled_final_money": 18339,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 15
+  },
+  {
+   "seed": 12,
+   "winner": "Brandon",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 99231,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.33,
+    "risk": 0.5,
+    "honesty": 0.46,
+    "luck": 0.17
+   },
+   "most_skilled": "Brandon",
+   "most_skilled_final_money": 99231,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 13,
+   "winner": "Gary",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 60788,
+   "winner_traits": {
+    "skill": 0.64,
+    "work_ethic": 0.61,
+    "risk": 0.51,
+    "honesty": 0.78,
+    "luck": 0.88
+   },
+   "most_skilled": "Lisa",
+   "most_skilled_final_money": 50126,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 14,
+   "winner": "Jack",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 30896,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.85,
+    "risk": 0.59,
+    "honesty": 0.87,
+    "luck": 0.18
+   },
+   "most_skilled": "Jacob",
+   "most_skilled_final_money": 17701,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 15,
+   "winner": "Stephen",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 64596,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.05,
+    "risk": 0.5,
+    "honesty": 0.15,
+    "luck": 0.59
+   },
+   "most_skilled": "Kimberly",
+   "most_skilled_final_money": 1246,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 16,
+   "winner": "Stephen",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 49959,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.15,
+    "risk": 0.64,
+    "honesty": 0.76,
+    "luck": 0.93
+   },
+   "most_skilled": "Joshua",
+   "most_skilled_final_money": 28060,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 17,
+   "winner": "Mark",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 51968,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.56,
+    "risk": 0.61,
+    "honesty": 0.37,
+    "luck": 1.0
+   },
+   "most_skilled": "Gloria",
+   "most_skilled_final_money": 28859,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 18,
+   "winner": "Janet",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 32412,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.23,
+    "risk": 0.76,
+    "honesty": 0.96,
+    "luck": 0.39
+   },
+   "most_skilled": "Sarah",
+   "most_skilled_final_money": 19334,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 19,
+   "winner": "Kelly",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 33230,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.37,
+    "risk": 0.55,
+    "honesty": 0.82,
+    "luck": 0.95
+   },
+   "most_skilled": "Mary",
+   "most_skilled_final_money": 15954,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 20,
+   "winner": "James",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 70689,
+   "winner_traits": {
+    "skill": 0.91,
+    "work_ethic": 0.69,
+    "risk": 0.77,
+    "honesty": 0.9,
+    "luck": 0.26
+   },
+   "most_skilled": "Paul",
+   "most_skilled_final_money": 16590,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 21,
+   "winner": "Kimberly",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 55727,
+   "winner_traits": {
+    "skill": 0.79,
+    "work_ethic": 0.01,
+    "risk": 0.46,
+    "honesty": 0.06,
+    "luck": 0.76
+   },
+   "most_skilled": "Frank",
+   "most_skilled_final_money": 25002,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 22,
+   "winner": "Jennifer",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 69891,
+   "winner_traits": {
+    "skill": 0.77,
+    "work_ethic": 0.96,
+    "risk": 0.57,
+    "honesty": 0.7,
+    "luck": 0.61
+   },
+   "most_skilled": "Charles",
+   "most_skilled_final_money": 61311,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 23,
+   "winner": "Dennis",
+   "winner_strategy": "thief",
+   "winner_archetype": "other",
+   "winner_money": 108223,
+   "winner_traits": {
+    "skill": 0.27,
+    "work_ethic": 0.12,
+    "risk": 0.61,
+    "honesty": 0.23,
+    "luck": 0.99
+   },
+   "most_skilled": "Jessica",
+   "most_skilled_final_money": 7394,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 24,
+   "winner": "Ryan",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 42165,
+   "winner_traits": {
+    "skill": 0.74,
+    "work_ethic": 0.83,
+    "risk": 0.78,
+    "honesty": 0.91,
+    "luck": 0.58
+   },
+   "most_skilled": "Samuel",
+   "most_skilled_final_money": 20349,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 25,
+   "winner": "Jack",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 36490,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.17,
+    "risk": 0.54,
+    "honesty": 0.54,
+    "luck": 0.55
+   },
+   "most_skilled": "Julie",
+   "most_skilled_final_money": 19743,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 26,
+   "winner": "Jonathan",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 31523,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.32,
+    "risk": 0.76,
+    "honesty": 0.96,
+    "luck": 0.29
+   },
+   "most_skilled": "Patrick",
+   "most_skilled_final_money": 12724,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 27,
+   "winner": "Gary",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 52328,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.01,
+    "risk": 0.65,
+    "honesty": 0.25,
+    "luck": 0.71
+   },
+   "most_skilled": "David",
+   "most_skilled_final_money": 38923,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 28,
+   "winner": "Daniel",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 46211,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.98,
+    "risk": 0.72,
+    "honesty": 0.4,
+    "luck": 0.4
+   },
+   "most_skilled": "Patricia",
+   "most_skilled_final_money": 37771,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 29,
+   "winner": "Stephanie",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 94175,
+   "winner_traits": {
+    "skill": 1.0,
+    "work_ethic": 0.68,
+    "risk": 0.71,
+    "honesty": 0.77,
+    "luck": 0.79
+   },
+   "most_skilled": "Stephanie",
+   "most_skilled_final_money": 94175,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 30,
+   "winner": "Jennifer",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 40484,
+   "winner_traits": {
+    "skill": 0.76,
+    "work_ethic": 0.57,
+    "risk": 0.67,
+    "honesty": 0.64,
+    "luck": 0.9
+   },
+   "most_skilled": "Christine",
+   "most_skilled_final_money": 34086,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 31,
+   "winner": "Larry",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 35598,
+   "winner_traits": {
+    "skill": 0.71,
+    "work_ethic": 0.74,
+    "risk": 0.59,
+    "honesty": 0.35,
+    "luck": 0.86
+   },
+   "most_skilled": "Melissa",
+   "most_skilled_final_money": 14041,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 17
+  },
+  {
+   "seed": 32,
+   "winner": "Brandon",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 43460,
+   "winner_traits": {
+    "skill": 0.72,
+    "work_ethic": 0.01,
+    "risk": 0.47,
+    "honesty": 0.79,
+    "luck": 0.78
+   },
+   "most_skilled": "Margaret",
+   "most_skilled_final_money": 18520,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 33,
+   "winner": "Nancy",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 98655,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.75,
+    "risk": 0.59,
+    "honesty": 0.51,
+    "luck": 0.85
+   },
+   "most_skilled": "Lawrence",
+   "most_skilled_final_money": 60063,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 34,
+   "winner": "Paul",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 114906,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.94,
+    "risk": 0.57,
+    "honesty": 0.85,
+    "luck": 0.43
+   },
+   "most_skilled": "Karen",
+   "most_skilled_final_money": -43,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 35,
+   "winner": "Diane",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 64827,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.61,
+    "risk": 0.72,
+    "honesty": 0.86,
+    "luck": 1.0
+   },
+   "most_skilled": "Nancy",
+   "most_skilled_final_money": 32877,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 36,
+   "winner": "Kelly",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 35584,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.49,
+    "risk": 0.71,
+    "honesty": 0.52,
+    "luck": 0.33
+   },
+   "most_skilled": "Patricia",
+   "most_skilled_final_money": 3337,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 17
+  },
+  {
+   "seed": 37,
+   "winner": "Jacob",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 60466,
+   "winner_traits": {
+    "skill": 0.91,
+    "work_ethic": 0.2,
+    "risk": 0.56,
+    "honesty": 0.29,
+    "luck": 0.98
+   },
+   "most_skilled": "Stephen",
+   "most_skilled_final_money": 34601,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 38,
+   "winner": "Deborah",
+   "winner_strategy": "thief",
+   "winner_archetype": "workhorse",
+   "winner_money": 34005,
+   "winner_traits": {
+    "skill": 0.69,
+    "work_ethic": 0.99,
+    "risk": 0.99,
+    "honesty": 0.02,
+    "luck": 0.85
+   },
+   "most_skilled": "Janice",
+   "most_skilled_final_money": 17142,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 39,
+   "winner": "Timothy",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 83123,
+   "winner_traits": {
+    "skill": 0.71,
+    "work_ethic": 0.84,
+    "risk": 0.76,
+    "honesty": 0.4,
+    "luck": 0.81
+   },
+   "most_skilled": "Kathryn",
+   "most_skilled_final_money": 17595,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 6
+  },
+  {
+   "seed": 40,
+   "winner": "Ashley",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 48089,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.01,
+    "risk": 0.63,
+    "honesty": 0.9,
+    "luck": 0.89
+   },
+   "most_skilled": "William",
+   "most_skilled_final_money": 8574,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 4
+  },
+  {
+   "seed": 41,
+   "winner": "Dorothy",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 34040,
+   "winner_traits": {
+    "skill": 0.67,
+    "work_ethic": 0.75,
+    "risk": 0.37,
+    "honesty": 0.79,
+    "luck": 0.09
+   },
+   "most_skilled": "Nancy",
+   "most_skilled_final_money": 29734,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 19
+  },
+  {
+   "seed": 42,
+   "winner": "Kathryn",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 53359,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.58,
+    "risk": 0.7,
+    "honesty": 0.86,
+    "luck": 0.77
+   },
+   "most_skilled": "Catherine",
+   "most_skilled_final_money": 13401,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 43,
+   "winner": "Jonathan",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 44900,
+   "winner_traits": {
+    "skill": 0.68,
+    "work_ethic": 0.2,
+    "risk": 0.66,
+    "honesty": 0.56,
+    "luck": 0.92
+   },
+   "most_skilled": "Joshua",
+   "most_skilled_final_money": 22392,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 17
+  },
+  {
+   "seed": 44,
+   "winner": "Jennifer",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 35393,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.04,
+    "risk": 0.39,
+    "honesty": 0.48,
+    "luck": 0.92
+   },
+   "most_skilled": "Richard",
+   "most_skilled_final_money": 16824,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 45,
+   "winner": "Heather",
+   "winner_strategy": "gambler",
+   "winner_archetype": "gambler",
+   "winner_money": 52663,
+   "winner_traits": {
+    "skill": 0.5,
+    "work_ethic": 0.34,
+    "risk": 0.85,
+    "honesty": 0.75,
+    "luck": 0.79
+   },
+   "most_skilled": "Jeffrey",
+   "most_skilled_final_money": 14165,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 46,
+   "winner": "Lisa",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 61173,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.07,
+    "risk": 0.65,
+    "honesty": 0.61,
+    "luck": 0.72
+   },
+   "most_skilled": "Gary",
+   "most_skilled_final_money": 40784,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 47,
+   "winner": "Donald",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 56231,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.12,
+    "risk": 0.46,
+    "honesty": 0.79,
+    "luck": 0.82
+   },
+   "most_skilled": "Gregory",
+   "most_skilled_final_money": 42298,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 48,
+   "winner": "Aaron",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 42342,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.13,
+    "risk": 0.41,
+    "honesty": 0.54,
+    "luck": 0.3
+   },
+   "most_skilled": "Dennis",
+   "most_skilled_final_money": 1110,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 49,
+   "winner": "Carolyn",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 67250,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.94,
+    "risk": 0.61,
+    "honesty": 0.63,
+    "luck": 0.29
+   },
+   "most_skilled": "Ann",
+   "most_skilled_final_money": -5,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 50,
+   "winner": "Ashley",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 128161,
+   "winner_traits": {
+    "skill": 0.67,
+    "work_ethic": 0.96,
+    "risk": 0.49,
+    "honesty": 0.76,
+    "luck": 0.89
+   },
+   "most_skilled": "Lauren",
+   "most_skilled_final_money": -3,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 51,
+   "winner": "Sandra",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 35020,
+   "winner_traits": {
+    "skill": 0.82,
+    "work_ethic": 0.27,
+    "risk": 0.74,
+    "honesty": 0.93,
+    "luck": 0.59
+   },
+   "most_skilled": "David",
+   "most_skilled_final_money": 17855,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 52,
+   "winner": "Thomas",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 48284,
+   "winner_traits": {
+    "skill": 0.74,
+    "work_ethic": 0.61,
+    "risk": 0.5,
+    "honesty": 0.67,
+    "luck": 0.15
+   },
+   "most_skilled": "Dennis",
+   "most_skilled_final_money": 36800,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 53,
+   "winner": "Edward",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 72112,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.91,
+    "risk": 0.53,
+    "honesty": 0.85,
+    "luck": 0.14
+   },
+   "most_skilled": "Aaron",
+   "most_skilled_final_money": 43400,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 54,
+   "winner": "Mark",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 67979,
+   "winner_traits": {
+    "skill": 0.93,
+    "work_ethic": 0.3,
+    "risk": 0.37,
+    "honesty": 0.55,
+    "luck": 0.23
+   },
+   "most_skilled": "Sandra",
+   "most_skilled_final_money": 41650,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 55,
+   "winner": "Dennis",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 56166,
+   "winner_traits": {
+    "skill": 0.82,
+    "work_ethic": 0.88,
+    "risk": 0.72,
+    "honesty": 0.94,
+    "luck": 0.75
+   },
+   "most_skilled": "Patrick",
+   "most_skilled_final_money": 38040,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 56,
+   "winner": "Carolyn",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 141501,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.99,
+    "risk": 0.74,
+    "honesty": 0.8,
+    "luck": 0.51
+   },
+   "most_skilled": "Larry",
+   "most_skilled_final_money": -37,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 57,
+   "winner": "Ashley",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 51088,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.55,
+    "risk": 0.54,
+    "honesty": 0.44,
+    "luck": 0.7
+   },
+   "most_skilled": "Matthew",
+   "most_skilled_final_money": 25805,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 15
+  },
+  {
+   "seed": 58,
+   "winner": "Frank",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 30392,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.61,
+    "risk": 0.38,
+    "honesty": 0.74,
+    "luck": 0.64
+   },
+   "most_skilled": "Joshua",
+   "most_skilled_final_money": 24340,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 17
+  },
+  {
+   "seed": 59,
+   "winner": "John",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 47380,
+   "winner_traits": {
+    "skill": 0.81,
+    "work_ethic": 0.54,
+    "risk": 0.76,
+    "honesty": 0.73,
+    "luck": 0.34
+   },
+   "most_skilled": "Julie",
+   "most_skilled_final_money": -25,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 60,
+   "winner": "Rebecca",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 31995,
+   "winner_traits": {
+    "skill": 0.79,
+    "work_ethic": 0.33,
+    "risk": 0.67,
+    "honesty": 0.59,
+    "luck": 0.57
+   },
+   "most_skilled": "Brian",
+   "most_skilled_final_money": 19075,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 61,
+   "winner": "Maria",
+   "winner_strategy": "gambler",
+   "winner_archetype": "gambler",
+   "winner_money": 297688,
+   "winner_traits": {
+    "skill": 0.58,
+    "work_ethic": 0.25,
+    "risk": 0.91,
+    "honesty": 0.42,
+    "luck": 0.73
+   },
+   "most_skilled": "Olivia",
+   "most_skilled_final_money": 16826,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 6
+  },
+  {
+   "seed": 62,
+   "winner": "Margaret",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 44640,
+   "winner_traits": {
+    "skill": 0.69,
+    "work_ethic": 0.76,
+    "risk": 0.76,
+    "honesty": 0.74,
+    "luck": 0.69
+   },
+   "most_skilled": "Joseph",
+   "most_skilled_final_money": -9,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 63,
+   "winner": "Brandon",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 51745,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.6,
+    "risk": 0.53,
+    "honesty": 0.33,
+    "luck": 0.69
+   },
+   "most_skilled": "Jack",
+   "most_skilled_final_money": 21730,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 64,
+   "winner": "Joseph",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 66038,
+   "winner_traits": {
+    "skill": 0.83,
+    "work_ethic": 0.97,
+    "risk": 0.47,
+    "honesty": 0.67,
+    "luck": 0.32
+   },
+   "most_skilled": "Lauren",
+   "most_skilled_final_money": -2,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 15
+  },
+  {
+   "seed": 65,
+   "winner": "Ann",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 25748,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.12,
+    "risk": 0.69,
+    "honesty": 0.82,
+    "luck": 0.53
+   },
+   "most_skilled": "Joseph",
+   "most_skilled_final_money": 20850,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 66,
+   "winner": "Mary",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 90650,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.56,
+    "risk": 0.74,
+    "honesty": 0.93,
+    "luck": 0.49
+   },
+   "most_skilled": "Melissa",
+   "most_skilled_final_money": 4547,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 67,
+   "winner": "Jack",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 34052,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.06,
+    "risk": 0.73,
+    "honesty": 0.31,
+    "luck": 0.74
+   },
+   "most_skilled": "Victoria",
+   "most_skilled_final_money": 18779,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 68,
+   "winner": "John",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 72112,
+   "winner_traits": {
+    "skill": 0.97,
+    "work_ethic": 0.36,
+    "risk": 0.55,
+    "honesty": 0.77,
+    "luck": 0.78
+   },
+   "most_skilled": "Cheryl",
+   "most_skilled_final_money": 7908,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 69,
+   "winner": "Jacqueline",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 42383,
+   "winner_traits": {
+    "skill": 0.8,
+    "work_ethic": 0.71,
+    "risk": 0.77,
+    "honesty": 0.94,
+    "luck": 0.49
+   },
+   "most_skilled": "Steven",
+   "most_skilled_final_money": 21622,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 70,
+   "winner": "Carolyn",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 42435,
+   "winner_traits": {
+    "skill": 0.76,
+    "work_ethic": 0.82,
+    "risk": 0.75,
+    "honesty": 0.63,
+    "luck": 0.76
+   },
+   "most_skilled": "Sandra",
+   "most_skilled_final_money": 20276,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 71,
+   "winner": "Andrew",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 25805,
+   "winner_traits": {
+    "skill": 0.77,
+    "work_ethic": 0.74,
+    "risk": 0.64,
+    "honesty": 0.69,
+    "luck": 0.29
+   },
+   "most_skilled": "Mary",
+   "most_skilled_final_money": 15629,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 72,
+   "winner": "Kimberly",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 53340,
+   "winner_traits": {
+    "skill": 0.63,
+    "work_ethic": 0.95,
+    "risk": 0.72,
+    "honesty": 0.55,
+    "luck": 0.59
+   },
+   "most_skilled": "Sandra",
+   "most_skilled_final_money": 38406,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 73,
+   "winner": "Dorothy",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 24810,
+   "winner_traits": {
+    "skill": 0.7,
+    "work_ethic": 0.32,
+    "risk": 0.41,
+    "honesty": 0.92,
+    "luck": 0.17
+   },
+   "most_skilled": "Nicholas",
+   "most_skilled_final_money": 15424,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 74,
+   "winner": "Carolyn",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 112819,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.28,
+    "risk": 0.73,
+    "honesty": 0.96,
+    "luck": 0.9
+   },
+   "most_skilled": "Edward",
+   "most_skilled_final_money": 62973,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 75,
+   "winner": "Mary",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 49681,
+   "winner_traits": {
+    "skill": 0.67,
+    "work_ethic": 0.47,
+    "risk": 0.67,
+    "honesty": 0.88,
+    "luck": 0.69
+   },
+   "most_skilled": "Ashley",
+   "most_skilled_final_money": 33726,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 76,
+   "winner": "Hannah",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 40398,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.14,
+    "risk": 0.7,
+    "honesty": 0.55,
+    "luck": 0.85
+   },
+   "most_skilled": "Sarah",
+   "most_skilled_final_money": 40396,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 77,
+   "winner": "Barbara",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 38422,
+   "winner_traits": {
+    "skill": 0.74,
+    "work_ethic": 0.77,
+    "risk": 0.38,
+    "honesty": 0.95,
+    "luck": 0.04
+   },
+   "most_skilled": "Susan",
+   "most_skilled_final_money": 29501,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 78,
+   "winner": "George",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 59449,
+   "winner_traits": {
+    "skill": 0.95,
+    "work_ethic": 0.89,
+    "risk": 0.63,
+    "honesty": 0.47,
+    "luck": 0.28
+   },
+   "most_skilled": "Jacqueline",
+   "most_skilled_final_money": -16,
+   "most_skilled_bankrupt": true,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 79,
+   "winner": "Amanda",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 40305,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.86,
+    "risk": 0.53,
+    "honesty": 0.19,
+    "luck": 0.27
+   },
+   "most_skilled": "Amanda",
+   "most_skilled_final_money": 40305,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 80,
+   "winner": "Stephen",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 49983,
+   "winner_traits": {
+    "skill": 0.92,
+    "work_ethic": 0.8,
+    "risk": 0.73,
+    "honesty": 0.85,
+    "luck": 0.64
+   },
+   "most_skilled": "Jacqueline",
+   "most_skilled_final_money": 39089,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 81,
+   "winner": "William",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 87243,
+   "winner_traits": {
+    "skill": 0.98,
+    "work_ethic": 0.02,
+    "risk": 0.54,
+    "honesty": 0.13,
+    "luck": 0.85
+   },
+   "most_skilled": "Joyce",
+   "most_skilled_final_money": 23917,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 4
+  },
+  {
+   "seed": 82,
+   "winner": "Joyce",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 54571,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.65,
+    "risk": 0.48,
+    "honesty": 0.64,
+    "luck": 0.45
+   },
+   "most_skilled": "Joseph",
+   "most_skilled_final_money": 42567,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 83,
+   "winner": "Ann",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 70402,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.6,
+    "risk": 0.63,
+    "honesty": 0.85,
+    "luck": 0.81
+   },
+   "most_skilled": "Hannah",
+   "most_skilled_final_money": 65354,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 84,
+   "winner": "Heather",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 74617,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.75,
+    "risk": 0.41,
+    "honesty": 0.84,
+    "luck": 0.94
+   },
+   "most_skilled": "Heather",
+   "most_skilled_final_money": 74617,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 7
+  },
+  {
+   "seed": 85,
+   "winner": "William",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 42135,
+   "winner_traits": {
+    "skill": 0.78,
+    "work_ethic": 0.15,
+    "risk": 0.45,
+    "honesty": 0.16,
+    "luck": 0.74
+   },
+   "most_skilled": "Susan",
+   "most_skilled_final_money": 15924,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 86,
+   "winner": "Samuel",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 36359,
+   "winner_traits": {
+    "skill": 0.96,
+    "work_ethic": 0.98,
+    "risk": 0.47,
+    "honesty": 0.38,
+    "luck": 0.75
+   },
+   "most_skilled": "George",
+   "most_skilled_final_money": 4257,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 8
+  },
+  {
+   "seed": 87,
+   "winner": "David",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 83869,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.83,
+    "risk": 0.75,
+    "honesty": 0.63,
+    "luck": 0.96
+   },
+   "most_skilled": "Brian",
+   "most_skilled_final_money": 53146,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 10
+  },
+  {
+   "seed": 88,
+   "winner": "Jennifer",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 34982,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.98,
+    "risk": 0.65,
+    "honesty": 0.95,
+    "luck": 0.78
+   },
+   "most_skilled": "Charles",
+   "most_skilled_final_money": 23266,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 16
+  },
+  {
+   "seed": 89,
+   "winner": "Lisa",
+   "winner_strategy": "gambler",
+   "winner_archetype": "gambler",
+   "winner_money": 292139,
+   "winner_traits": {
+    "skill": 0.04,
+    "work_ethic": 0.33,
+    "risk": 0.97,
+    "honesty": 0.88,
+    "luck": 0.1
+   },
+   "most_skilled": "Catherine",
+   "most_skilled_final_money": 163446,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 18
+  },
+  {
+   "seed": 90,
+   "winner": "Anthony",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 29950,
+   "winner_traits": {
+    "skill": 0.94,
+    "work_ethic": 0.64,
+    "risk": 0.49,
+    "honesty": 0.31,
+    "luck": 0.58
+   },
+   "most_skilled": "Alexander",
+   "most_skilled_final_money": 3508,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 91,
+   "winner": "Gregory",
+   "winner_strategy": "gambler",
+   "winner_archetype": "workhorse",
+   "winner_money": 129049,
+   "winner_traits": {
+    "skill": 0.32,
+    "work_ethic": 0.99,
+    "risk": 0.91,
+    "honesty": 0.97,
+    "luck": 0.66
+   },
+   "most_skilled": "Dennis",
+   "most_skilled_final_money": 91526,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 15
+  },
+  {
+   "seed": 92,
+   "winner": "Ronald",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 33363,
+   "winner_traits": {
+    "skill": 0.87,
+    "work_ethic": 0.98,
+    "risk": 0.37,
+    "honesty": 0.54,
+    "luck": 0.9
+   },
+   "most_skilled": "Lauren",
+   "most_skilled_final_money": 22737,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 15
+  },
+  {
+   "seed": 93,
+   "winner": "Michelle",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 26980,
+   "winner_traits": {
+    "skill": 0.99,
+    "work_ethic": 0.1,
+    "risk": 0.47,
+    "honesty": 0.59,
+    "luck": 0.74
+   },
+   "most_skilled": "Lawrence",
+   "most_skilled_final_money": 22128,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 11
+  },
+  {
+   "seed": 94,
+   "winner": "Jacqueline",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 47381,
+   "winner_traits": {
+    "skill": 0.95,
+    "work_ethic": 0.93,
+    "risk": 0.4,
+    "honesty": 0.93,
+    "luck": 0.99
+   },
+   "most_skilled": "Nicholas",
+   "most_skilled_final_money": 33995,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 14
+  },
+  {
+   "seed": 95,
+   "winner": "Gregory",
+   "winner_strategy": "builder",
+   "winner_archetype": "workhorse",
+   "winner_money": 56103,
+   "winner_traits": {
+    "skill": 0.89,
+    "work_ethic": 0.99,
+    "risk": 0.67,
+    "honesty": 0.68,
+    "luck": 0.04
+   },
+   "most_skilled": "Barbara",
+   "most_skilled_final_money": 52026,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 96,
+   "winner": "Larry",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 54464,
+   "winner_traits": {
+    "skill": 0.66,
+    "work_ethic": 0.72,
+    "risk": 0.55,
+    "honesty": 0.99,
+    "luck": 0.33
+   },
+   "most_skilled": "Michael",
+   "most_skilled_final_money": 19636,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 5
+  },
+  {
+   "seed": 97,
+   "winner": "Jack",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 35374,
+   "winner_traits": {
+    "skill": 0.69,
+    "work_ethic": 0.88,
+    "risk": 0.68,
+    "honesty": 0.78,
+    "luck": 0.68
+   },
+   "most_skilled": "Jessica",
+   "most_skilled_final_money": 13702,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  },
+  {
+   "seed": 98,
+   "winner": "Jerry",
+   "winner_strategy": "builder",
+   "winner_archetype": "quiet_builder",
+   "winner_money": 36118,
+   "winner_traits": {
+    "skill": 0.85,
+    "work_ethic": 0.83,
+    "risk": 0.53,
+    "honesty": 0.81,
+    "luck": 0.63
+   },
+   "most_skilled": "Ann",
+   "most_skilled_final_money": 8802,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 9
+  },
+  {
+   "seed": 99,
+   "winner": "Ann",
+   "winner_strategy": "gambler",
+   "winner_archetype": "gambler",
+   "winner_money": 69757,
+   "winner_traits": {
+    "skill": 0.86,
+    "work_ethic": 0.19,
+    "risk": 0.88,
+    "honesty": 0.66,
+    "luck": 0.58
+   },
+   "most_skilled": "Jack",
+   "most_skilled_final_money": 13564,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 13
+  },
+  {
+   "seed": 100,
+   "winner": "David",
+   "winner_strategy": "builder",
+   "winner_archetype": "genius",
+   "winner_money": 35987,
+   "winner_traits": {
+    "skill": 0.9,
+    "work_ethic": 0.13,
+    "risk": 0.55,
+    "honesty": 0.97,
+    "luck": 0.61
+   },
+   "most_skilled": "Dennis",
+   "most_skilled_final_money": 6888,
+   "most_skilled_bankrupt": false,
+   "total_bankrupt": 12
+  }
+ ]
+}
