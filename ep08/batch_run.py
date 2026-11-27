@@ -1,0 +1,188 @@
+#!/usr/bin/env python3
+"""EP08 aggregate batch runner.
+
+Runs the exact model from sim.py (same parameters: 100 agents,
+$100 each, 6 free hours/day each, 30 days, one Lucky One with luck
+1.00, morning fortune draws) with 100 different random seeds and
+tallies what happens across towns. The featured story run (see
+REPRODUCE.md for the chosen seed) is NOT part of this batch.
+
+Seeds: 1000..1099.
+
+Winner classification for the headline stat: by the winner's STRONGEST
+trait (the maximum of their five START traits; ties broken in the order
+skill, grit, risk, honesty, luck) — the same rule sim.strongest_trait
+applies to the featured winner. Raw winner-strategy tallies are also
+saved, so nothing is hidden by the grouping.
+
+Headline question of this episode — can luck beat effort? The batch
+counts how often the Lucky One wins at all, how often they make the
+top 3, and — the Mauboussin conditional — how often they win WHEN
+they also showed up skilled (skill_start >= 0.70): luck decides among
+the skilled, or it does not.
+"""
+import json, statistics, sys
+sys.path.insert(0, ".")
+import sim
+
+N_RUNS = 100
+SEEDS = list(range(1000, 1000 + N_RUNS))
+FEATURED_SEED = None  # set from scan_results.json at run time; must not be in SEEDS
+try:
+    with open("scan_results.json") as f:
+        FEATURED_SEED = json.load(f)["top_candidates"][0]["seed"]
+except Exception:
+    pass
+assert FEATURED_SEED not in SEEDS, f"featured seed {FEATURED_SEED} inside batch range"
+
+TRAITS = ("skill", "grit", "risk", "honesty", "luck")
+STRATS = ("gambler", "schemer", "grinder", "scholar", "trader", "worker")
+
+runs = []
+trait_wins = {t: 0 for t in TRAITS}
+strat_wins = {s: 0 for s in STRATS}
+winner_learn, town_learn, winner_waste, town_waste = [], [], [], []
+winner_windfall, town_windfall = [], []
+winner_skill_gain, winner_reps = [], []
+margins, margin_pcts, lead_changes_l = [], [], []
+lies_l, caught_l, flops_l, mean_reps, mean_skills = [], [], [], [], []
+winner_learned_more_runs = winner_wasted_less_runs = 0
+winner_windfall_beat_town_runs = 0
+winner_final_leader_runs = 0
+winner_follower_peaks = []
+rep_buckets = {">=0.9": 0, "0.7-0.9": 0, "0.5-0.7": 0, "<0.5": 0}
+bankrupt_l = []
+lucky_won_runs = lucky_top3_runs = 0
+lucky_ranks, lucky_windfalls, lucky_skill_starts = [], [], []
+lucky_skilled_runs = lucky_skilled_won_runs = 0
+
+for s in SEEDS:
+    log = sim.run(seed=s)
+    w = log["winner"]
+    lk = log["lucky_one"]
+    trait_wins[w["strongest_trait"]] += 1
+    strat_wins[w["strategy"]] += 1
+    winner_learn.append(w["learn_per_day"])
+    town_learn.append(log["town_avg_learn_per_day"])
+    winner_waste.append(w["waste_per_day"])
+    town_waste.append(log["town_avg_waste_per_day"])
+    winner_windfall.append(w["windfall_total"])
+    town_windfall.append(log["town_avg_windfall_per_day"] * 30.0)
+    winner_skill_gain.append(w["skill_gain"])
+    winner_reps.append(w["final_rep"])
+    if w["learn_per_day"] > log["town_avg_learn_per_day"]:
+        winner_learned_more_runs += 1
+    if w["waste_per_day"] < log["town_avg_waste_per_day"]:
+        winner_wasted_less_runs += 1
+    if w["windfall_total"] > log["town_avg_windfall_per_day"] * 30.0:
+        winner_windfall_beat_town_runs += 1
+    if w["final_rep"] >= 0.9: rep_buckets[">=0.9"] += 1
+    elif w["final_rep"] >= 0.7: rep_buckets["0.7-0.9"] += 1
+    elif w["final_rep"] >= 0.5: rep_buckets["0.5-0.7"] += 1
+    else: rep_buckets["<0.5"] += 1
+    if log["final_leader"]["name"] == w["name"]:
+        winner_final_leader_runs += 1
+    margins.append(log["winning_margin"]); margin_pcts.append(log["winning_margin_pct"])
+    lead_changes_l.append(log["lead_changes"])
+    lies_l.append(log["total_lies"]); caught_l.append(log["total_caught"])
+    flops_l.append(log["total_flops"]); mean_reps.append(log["final_mean_rep"])
+    mean_skills.append(log["final_mean_skill"])
+    winner_follower_peaks.append(w["followers_peak"])
+    bankrupt_l.append(log["total_bankrupt"])
+    # the Lucky One, per run
+    if w["name"] == lk["name"]:
+        lucky_won_runs += 1
+    if lk["final_rank"] <= 3:
+        lucky_top3_runs += 1
+    lucky_ranks.append(lk["final_rank"])
+    lucky_windfalls.append(lk["windfall_total"])
+    lucky_skill_starts.append(lk["skill_start"])
+    if lk["skill_start"] >= 0.70:
+        lucky_skilled_runs += 1
+        if w["name"] == lk["name"]:
+            lucky_skilled_won_runs += 1
+    runs.append({
+        "seed": s, "winner": w["name"], "winner_strategy": w["strategy"],
+        "winner_strongest_trait": w["strongest_trait"],
+        "winner_money": w["final_money"], "winner_rep": w["final_rep"],
+        "winner_learn_per_day": w["learn_per_day"],
+        "town_avg_learn_per_day": log["town_avg_learn_per_day"],
+        "winner_waste_per_day": w["waste_per_day"],
+        "town_avg_waste_per_day": log["town_avg_waste_per_day"],
+        "winner_windfall_total": w["windfall_total"],
+        "winner_windfall_days": w["windfall_days"],
+        "town_avg_windfall_total": round(log["town_avg_windfall_per_day"] * 30.0, 1),
+        "winner_skill_gain": w["skill_gain"],
+        "winner_followers_peak": w["followers_peak"],
+        "lucky_one": lk["name"], "lucky_strategy": lk["strategy"],
+        "lucky_rank": lk["final_rank"], "lucky_money": lk["final_money"],
+        "lucky_windfall_total": lk["windfall_total"],
+        "lucky_windfall_days": lk["windfall_days"],
+        "lucky_skill_start": lk["skill_start"],
+        "lucky_won": w["name"] == lk["name"],
+        "winning_margin": log["winning_margin"],
+        "winning_margin_pct": log["winning_margin_pct"],
+        "lead_changes": log["lead_changes"],
+        "distinct_leaders": log["distinct_leaders"],
+        "total_lies": log["total_lies"], "total_caught": log["total_caught"],
+        "total_flops": log["total_flops"],
+        "total_bankrupt": log["total_bankrupt"],
+        "total_windfalls": log["total_windfalls"],
+    })
+    if s % 25 == 0: print(f"...{s} runs done", flush=True)
+
+out = {
+    "n_runs": N_RUNS,
+    "seeds": [SEEDS[0], SEEDS[-1]],
+    "model": "sim.py run(seed), identical parameters to featured run; featured seed "
+             f"{FEATURED_SEED} not included",
+    "grouping_method": "winner classified by strongest START trait (max of the five; ties in order skill, grit, risk, honesty, luck)",
+    "wins_by_strongest_trait": trait_wins,
+    "wins_by_strategy_raw": strat_wins,
+    "lucky_one": {
+        "won_runs": lucky_won_runs,
+        "top3_runs": lucky_top3_runs,
+        "median_rank": statistics.median(lucky_ranks),
+        "median_windfall_total": round(statistics.median(lucky_windfalls)),
+        "median_skill_start": round(statistics.median(lucky_skill_starts), 2),
+        "skilled_runs": lucky_skilled_runs,
+        "skilled_won_runs": lucky_skilled_won_runs,
+    },
+    "winner_learn": {
+        "median_winner_learn_per_day": round(statistics.median(winner_learn), 2),
+        "median_town_avg_learn_per_day": round(statistics.median(town_learn), 2),
+        "winner_learned_more_than_town_avg_runs": winner_learned_more_runs,
+    },
+    "winner_waste": {
+        "median_winner_waste_per_day": round(statistics.median(winner_waste), 2),
+        "median_town_avg_waste_per_day": round(statistics.median(town_waste), 2),
+        "winner_wasted_less_than_town_avg_runs": winner_wasted_less_runs,
+    },
+    "winner_windfall": {
+        "median_winner_windfall_total": round(statistics.median(winner_windfall)),
+        "median_town_avg_windfall_total": round(statistics.median(town_windfall), 1),
+        "winner_beat_town_windfall_runs": winner_windfall_beat_town_runs,
+    },
+    "winner_skill_gain": {
+        "median_winner_skill_gain": round(statistics.median(winner_skill_gain), 3),
+    },
+    "winner_reputation": {
+        "median_winner_rep": round(statistics.median(winner_reps), 3),
+        "distribution_buckets": rep_buckets,
+    },
+    "median_winning_margin": round(statistics.median(margins)),
+    "median_winning_margin_pct": round(statistics.median(margin_pcts), 2),
+    "winner_is_final_leader_runs": winner_final_leader_runs,
+    "median_lead_changes": statistics.median(lead_changes_l),
+    "median_winner_followers_peak": statistics.median(winner_follower_peaks),
+    "median_bankrupt_per_town": statistics.median(bankrupt_l),
+    "mean_lies_per_town": round(statistics.mean(lies_l)),
+    "mean_caught_per_town": round(statistics.mean(caught_l)),
+    "mean_flops_per_town": round(statistics.mean(flops_l), 1),
+    "mean_final_mean_rep": round(statistics.mean(mean_reps), 3),
+    "mean_final_mean_skill": round(statistics.mean(mean_skills), 3),
+    "runs": runs,
+}
+with open("aggregate_log.json", "w") as f:
+    json.dump(out, f, indent=1)
+print(json.dumps({k: v for k, v in out.items() if k != "runs"}, indent=1))
